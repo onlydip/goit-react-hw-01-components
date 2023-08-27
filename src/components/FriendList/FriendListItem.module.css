@@ -1,0 +1,40 @@
+.item {
+    background-color: #fff;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.item:last-child {
+    margin-bottom: 0px;
+}
+
+.status__onl {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.status__off {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.avatar {
+    margin-right: 15px;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: 500;
+}
